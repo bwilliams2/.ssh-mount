@@ -8,7 +8,7 @@
         {
             "type": "bind",
             "source": "${localEnv:HOME}/.ssh",
-            "target": "/root/.ssh,readonly"
+            "target": "${containerEnv:HOME}/.ssh,readonly"
         }
     ]
 }
