@@ -11,6 +11,7 @@ source dev-container-features-test-lib
 
 # Feature-specific tests
 # The 'check' command comes from the dev-container-features-test-lib.
+check "check file exists root directory" sudo test -f "/root/.ssh/smoke-test"
 check "check file exists root" sudo test -f "$HOME/.ssh/smoke-test"
 check "check file exists" test -f "$HOME/.ssh/smoke-test"
 
