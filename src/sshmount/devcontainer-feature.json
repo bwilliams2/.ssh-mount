@@ -1,19 +1,19 @@
 {
     "name": "ssh-mount",
     "id": "sshmount",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Mounts the host's ~/.ssh directory into the container",
     "options": {},
     "mounts": [
         {
-            "type": "volume",
+            "type": "bind",
             "source": "${localEnv:HOME}/.ssh",
             "target": "/root/.ssh,readonly"
         },
         {
-            "type": "volume",
+            "type": "bind",
             "source": "${localEnv:HOME}/.ssh",
-            "target": "/home/vscode/.ssh,readonly"
+            "target": "/home/vscode/.ssh,readonly",
         }
     ]
 }
