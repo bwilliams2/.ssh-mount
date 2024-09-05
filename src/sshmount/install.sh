@@ -10,4 +10,3 @@ echo "The effective dev container containerUser's home directory is '$_CONTAINER
 
 chown -R $_REMOTE_USER:$_REMOTE_USER /mnt/.ssh
 ln -s /mnt/.ssh $_REMOTE_USER_HOME/.ssh
-# chmod -R u+r $_REMOTE_USER_HOME/.ssh
