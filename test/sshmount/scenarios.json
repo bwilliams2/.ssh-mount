@@ -3,7 +3,7 @@
         "image": "mcr.microsoft.com/devcontainers/base:focal",
         "features": {
             "sshmount": {
-                "remoteUser": "vscode"
+                "test": "vscode"
             }
         },
         "remoteUser": "vscode"
