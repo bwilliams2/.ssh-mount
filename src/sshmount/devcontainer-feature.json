@@ -3,7 +3,13 @@
     "id": "sshmount",
     "version": "0.0.4",
     "description": "Mounts the host's ~/.ssh directory into the container",
-    "options": {},
+    "options": {
+        "remoteUser": {
+            "type": "string",
+            "default": "root",
+            "description": "Select a pre-made greeting, or enter your own"
+        }
+    },
     "mounts": [
         {
             "type": "bind",
