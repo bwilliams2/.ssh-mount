@@ -5,6 +5,8 @@
 
 set -e
 
+useradd -m -s /bin/bash -p "$(openssl passwd -1 random)" random
+
 # Optional: Import test library bundled with the devcontainer CLI
 source dev-container-features-test-lib
 
