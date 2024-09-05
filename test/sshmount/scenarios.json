@@ -1,0 +1,17 @@
+{
+    "vscode": {
+        "image": "mcr.microsoft.com/devcontainers/base:focal",
+        "features": {},
+        "remoteUser": "vscode"
+    },
+    "root": {
+        "image": "mcr.microsoft.com/devcontainers/base:focal",
+        "features": {},
+        "remoteUser": "root"
+    },
+    "random": {
+        "image": "mcr.microsoft.com/devcontainers/base:focal",
+        "features": {},
+        "remoteUser": "random"
+    }
+}
