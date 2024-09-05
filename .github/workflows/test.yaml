@@ -14,7 +14,6 @@ jobs:
       matrix:
         features:
           - sshmount
-          - color
         baseImage:
           - debian:latest
           - ubuntu:latest
@@ -37,7 +36,6 @@ jobs:
     strategy:
       matrix:
         features:
-          - color
           - sshmount
     steps:
       - uses: actions/checkout@v4
